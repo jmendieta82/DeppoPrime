@@ -1,0 +1,16 @@
+export interface DetalleMovimiento{
+  producto:String,
+  producto_id?:String,
+  cantidad?:String,
+  codigo?:String,
+  encontrado?:boolean,
+  unidad_medida?:String,
+  unidad?:String,
+  precioVenta?:number,
+  vrUnitario?:number,
+  stockAntes?:number,
+  stockDespues?:number,
+  stock?:number,
+  total?:number,
+  cantidad_en_stock?:number,
+}
